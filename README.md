@@ -70,3 +70,30 @@ Initial analysis reveals:
 
 ##  Project Structure
 
+
+---
+
+##  Next Steps
+
+- Finalize segment insights
+- Visualize trends in chip preferences by segment
+- Generate actionable recommendations for product, pricing, and promotion strategies
+- Compile presentation-ready visuals and summary tables
+
+---
+
+## Tech Stack
+
+- **Python** (Pandas)
+- **Jupyter Notebook**
+- **Excel / CSV**
+- **Tableau **
+
+---
+
+## Contact
+
+Project owner: *Mykyta Loiko*  
+
+
+
