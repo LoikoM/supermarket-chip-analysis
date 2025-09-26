@@ -33,8 +33,6 @@ The following preprocessing steps were applied:
 
 ---
 
-##  Feature Engineering
-
 New features were derived to aid segmentation:
 
 - **Pack Size**: Extracted from product names using regex (e.g., "175g" → 175).
