@@ -90,7 +90,19 @@ Initial analysis reveals:
 - **Tableau**
 
 ---
+## Key Insights Summary
 
+This project explores chip purchasing behaviour across different customer segments.  
+The analysis identified key trends in total sales, customer preferences, and pack size popularity:
+
+- **Mainstream customers** are the primary buyers, contributing to **38.78%** of total sales.
+- **Young Singles/Couples** and **Retirees** are the top-performing groups within the mainstream segment.
+- The **175g pack size** is the most popular across all segments.
+- **Doritos** is the leading brand in sales, followed by **Smiths** and **Thins**.
+- **Premium customers** tend to spend more per transaction, particularly **Older Singles/Couples**.
+
+Full insights and strategic recommendations can be found in the [`INSIGHTS.md`](INSIGHTS.md) report.
+---
 ## Contact
 
 Project owner: *Mykyta Loiko*  
