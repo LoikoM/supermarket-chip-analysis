@@ -16,7 +16,7 @@
 
 ---
 
-### 🎯 . High-Value Premium Segments
+### . High-Value Premium Segments
 
 - In the **Premium** segment, the dominant group is **Older Singles/Couples**.
 - Although their volume is lower than mainstream customers, **premium shoppers tend to have a higher average spend per transaction**, suggesting a focus on quality and branded products.
