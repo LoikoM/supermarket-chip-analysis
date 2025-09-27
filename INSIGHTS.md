@@ -16,7 +16,7 @@
   - **Young Singles/Couples**
   - **Retirees**
 - These groups show strong interest in chip consumption, with high purchase volumes.
-
+![Dashboard](outputs/charts/mainstream.png)
 ---
 
 ### . High-Value Premium Segments
