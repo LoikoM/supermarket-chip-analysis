@@ -20,13 +20,15 @@
 ---
 
 ### . High-Value Premium Segments
+![Dashboard](outputs/charts/premium_customer.png)
 
 - In the **Premium** segment, the dominant group is **Older Singles/Couples**.
-- Although their volume is lower than mainstream customers, **premium shoppers tend to have a higher average spend per transaction**, suggesting a focus on quality and branded products.
+
 
 ---
 
 ### 4. Purchase Behavior and Average Spend
+![Dashboard](outputs/charts/mainstream2_customer.png)
 
 - **Midage Singles/Couples** and **Young Singles/Couples** (especially Mainstream) show a **higher average spend per transaction**.
 - This may indicate **impulse-driven purchases** or more frequent consumption patterns.
