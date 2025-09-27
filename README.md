@@ -87,7 +87,7 @@ Initial analysis reveals:
 - **Python** (Pandas)
 - **Jupyter Notebook**
 - **Excel / CSV**
-- **Tableau **
+- **Tableau**
 
 ---
 
