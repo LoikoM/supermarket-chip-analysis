@@ -1,10 +1,8 @@
 ##  Insights and Conclusions
 
 ###  1. Customer Segmentation by Sales
-git add outputs/charts/dashboard_mainstream.png
-git commit -m "Add dashboard image"
-git push
-![Dashboard](outputs/charts/Dashboard total_sale.png)
+
+![Dashboard](outputs/charts/total_sale.png)
 
 
 - The **"Mainstream" customer segment** accounts for the **largest share of chip sales**, contributing to **38.78%** of total sales.
