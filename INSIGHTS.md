@@ -65,5 +65,5 @@
 
 ## Dashboard Access
 
-[📊 Click here to view the interactive dashboard on Tableau Public](https://public.tableau.com/authoring/SupermarketChipAnalysis/Dashboard12#1) 
+[📊 Click here to view the interactive dashboard on Tableau Public](https://public.tableau.com/views/SupermarketChipAnalysis/Dashboard12?:language=it-IT&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link) 
 
