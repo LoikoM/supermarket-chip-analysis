@@ -1,7 +1,7 @@
 ##  Insights and Conclusions
 
 ###  1. Customer Segmentation by Sales
-
+![Dashboard](outputs/charts/Dashboard total_sale.png)
 - The **"Mainstream" customer segment** accounts for the **largest share of chip sales**, contributing to **38.78%** of total sales.
 - Followed by **"Budget"** customers at 35.09% and **"Premium"** customers at 26.12%.
 
