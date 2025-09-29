@@ -8,13 +8,9 @@ This project supports the **Category Manager for Chips** at a major supermarket 
 
 ##  Data Sources
 
-Two datasets were used:
+1. **Transaction Data** (`QVI_transaction_data.xlsx`) : purchase-level data such as product name, quantity, total spend, and customer ID.
 
-1. **Transaction Data** (`QVI_transaction_data.xlsx`)  
-   Contains purchase-level data such as product name, quantity, total spend, and customer ID.
-
-2. **Customer Profile Data** (`QVI_purchase_behaviour.csv`)  
-   Includes customer segmentation information:
+2. **Customer Profile Data** (`QVI_purchase_behaviour.csv`) : customer segmentation information:
    - `LIFESTAGE`: Describes the customer's family situation and age group.
    - `PREMIUM_CUSTOMER`: Categorizes shoppers based on price sensitivity and quality preference.
 
@@ -65,11 +61,6 @@ Initial analysis reveals:
 - Whether premium segments buy more expensive brands or larger pack sizes.
 
 (These findings will be fully detailed in the final report to be shared.)
-
----
-
-##  Project Structure
-
 
 ---
 
