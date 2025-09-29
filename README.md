@@ -1,4 +1,4 @@
-#  Chip Customer Segmentation Analysis
+#  Customer Segmentation Analysis for Chip Category
 
 ##  Project Overview
 
@@ -27,8 +27,6 @@ The following preprocessing steps were applied:
 - **Outlier Removal**: A customer who purchased over 200 packs in a single transaction was removed.
 - **Missing Data**: Any missing or malformed pack sizes were handled during feature engineering.
 
----
-
 New features were derived to aid segmentation:
 
 - **Pack Size**: Extracted from product names using regex (e.g., "175g" → 175).
@@ -51,36 +49,6 @@ We explored customer behavior by segmenting based on `LIFESTAGE` and `PREMIUM_CU
 
 These metrics help identify **high-value segments**, **volume drivers**, and **potential areas for promotion or assortment changes**.
 
----
-
-## Key Findings (To Be Expanded)
-
-Initial analysis reveals:
-- Segments with higher sales volume.
-- Preferences in pack size by segment.
-- Whether premium segments buy more expensive brands or larger pack sizes.
-
-(These findings will be fully detailed in the final report to be shared.)
-
----
-
-##  Next Steps
-
-- Finalize segment insights
-- Visualize trends in chip preferences by segment
-- Generate actionable recommendations for product, pricing, and promotion strategies
-- Compile presentation-ready visuals and summary tables
-
----
-
-## Tech Stack
-
-- **Python** (Pandas)
-- **Jupyter Notebook**
-- **Excel / CSV**
-- **Tableau**
-
----
 ## Key Insights Summary
 
 This project explores chip purchasing behaviour across different customer segments.  
