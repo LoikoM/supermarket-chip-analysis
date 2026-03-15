@@ -1,70 +1,31 @@
-#  Customer Segmentation Analysis for Chip Category
+# Retail Customer Segmentation Analysis (FMCG Category)
 
-##  Project Overview
+## Project Overview
+This project focuses on **Category Management** for a major supermarket chain. The goal is to analyze customer purchasing behavior within the "Chips" category to define a data-driven strategy for the next 6 months.
 
-This project supports the **Category Manager for Chips** at a major supermarket chain in understanding the types of customers purchasing chips and their buying behaviour. The insights derived from this analysis will help inform the upcoming **category strategy** for the next six months, with a particular focus on **customer segmentation**, **spend behaviour**, and **product preferences**.
+By merging transaction data with customer profiles, I identified high-value segments and optimized product assortment based on spend behavior and brand preferences.
 
----
+## Tech Stack
+- **Python:** Data manipulation (Pandas, Numpy).
+- **Visualization:**  Tableau.
+- **Statistical Analysis:** Outlier detection and feature engineering (Regex for pack sizes and brand standardization).
 
-##  Data Sources
+## Key Methodology
+1. **Data Cleaning:** Handled Excel serial dates, removed extreme outliers (e.g., bulk commercial purchases), and standardized brand names using string matching.
+2. **Feature Engineering:** Extracted `Pack_Size` and `Brand_Name` from unstructured product strings.
+3. **Segmentation:** Analyzed the interplay between `LIFESTAGE` and `PREMIUM_CUSTOMER` status.
 
-1. **Transaction Data** (`QVI_transaction_data.xlsx`) : purchase-level data such as product name, quantity, total spend, and customer ID.
+## Dashboard Preview
+![Category Performance Dashboard](visuals/Dashboard.jpg)
 
-2. **Customer Profile Data** (`QVI_purchase_behaviour.csv`) : customer segmentation information:
-   - `LIFESTAGE`: Describes the customer's family situation and age group.
-   - `PREMIUM_CUSTOMER`: Categorizes shoppers based on price sensitivity and quality preference.
-
-These datasets were merged on the unique loyalty card number (`LYLTY_CARD_NBR`).
-
----
-
-##  Data Cleaning & Preparation
-
-The following preprocessing steps were applied:
-
-- **Date Conversion**: Excel serial dates were converted to `datetime` format.
-- **Filtering for Chips Only**: Products were filtered to include only those related to chips based on keywords (`chip`, `chips`, `chp`).
-- **Outlier Removal**: A customer who purchased over 200 packs in a single transaction was removed.
-- **Missing Data**: Any missing or malformed pack sizes were handled during feature engineering.
-
-New features were derived to aid segmentation:
-
-- **Pack Size**: Extracted from product names using regex (e.g., "175g" → 175).
-- **Brand Name**: Standardized by extracting the first word from the product name and mapping inconsistencies to consistent brand labels (e.g., "Smith" → "Smiths", "RED" → "RRD").
+## Key Strategic Insights
+- **Segment Leadership:** Mainstream customers drive **38.78%** of total sales, with **Young Singles/Couples** being the most profitable sub-segment.
+- **Assortment Optimization:** The **175g pack size** is the universal top-seller; stock availability should prioritize this size across all regions.
+- **Brand Dominance:** **Doritos** and **Smiths** represent the core of the category revenue.
 
 ---
-
-##  Segment Analysis
-
-We explored customer behavior by segmenting based on `LIFESTAGE` and `PREMIUM_CUSTOMER` status. Key metrics included:
-
-| Metric | Description |
-|--------|-------------|
-| `total_sales` | Total dollar spend per segment |
-| `avg_sales` | Average spend per transaction |
-| `transaction_count` | Number of transactions |
-| `total_units` | Total quantity of chip packs purchased |
-| `unique_customers` | Number of unique shoppers in each segment |
-| `avg_units_per_customer` | Total units divided by number of customers |
-
-These metrics help identify **high-value segments**, **volume drivers**, and **potential areas for promotion or assortment changes**.
-
-## Key Insights Summary
-
-This project explores chip purchasing behaviour across different customer segments.  
-The analysis identified key trends in total sales, customer preferences, and pack size popularity:
-
-- **Mainstream customers** are the primary buyers, contributing to **38.78%** of total sales.
-- **Young Singles/Couples** and **Retirees** are the top-performing groups within the mainstream segment.
-- The **175g pack size** is the most popular across all segments.
-- **Doritos** is the leading brand in sales, followed by **Smiths** and **Thins**.
-- **Premium customers** tend to spend more per transaction, particularly **Older Singles/Couples**.
-
-Full insights and strategic recommendations can be found in the [`INSIGHTS.md`](INSIGHTS.md) report.
----
-## Contact
-
-Project owner: *Mykyta Loiko*  
-
+### 🔗 Contact & Links
+- **LinkedIn:** [Your Profile Link]
+- **Tableau Public:** [Link to Interactive Dashboard if available]
 
 
