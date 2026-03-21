@@ -1,69 +1,26 @@
-##  Insights and Conclusions
+Final Insights & Business Intelligence
+1. Customer Segmentation & Revenue Drivers
+Mainstream Dominance: The "Mainstream" segment stands as the primary revenue engine, contributing to 38.8% of total sales.
 
-###  1. Customer Segmentation by Sales
+High-Value Clusters: Within the Mainstream segment, Young Singles/Couples and Retirees exhibit the highest purchase frequency and volume.
 
-![Dashboard](outputs/charts/total_sale.png)
+Premium Opportunities: Older Singles/Couples represent the dominant group within the Premium segment, indicating a strong preference for high-end products in mature households.
 
+2. Mix Delta Analysis (Market Share vs. Volume)
+Positive Profitability Mix: The Mainstream Young Families (+1.2 pp) and Mainstream Young Singles/Couples (+0.2 pp) segments show a positive Mix Delta. This indicates these customers purchase higher-value products relative to the average, driving more revenue per unit sold.
 
-- The **"Mainstream" customer segment** accounts for the **largest share of chip sales**, contributing to **38.78%** of total sales.
-- Followed by **"Budget"** customers at 35.09% and **"Premium"** customers at 26.12%.
+Budget Segment Efficiency: Conversely, Budget segments (such as Older Families -1.1 pp) show a negative Delta, suggesting high price sensitivity and a preference for value brands or promotional formats.
 
----
+3. Brand & Pack Size Performance
+Market Leader: Doritos is the undisputed leader ($14.4K in sales), followed by Smiths ($11.1K), confirming strong brand equity in the Australian market.
 
-###  2. Key Segments Within Mainstream
+Hero Format: The 175g pack size is the top-selling format with 11.9K units sold, solidifying its position as the standard choice for both individual and household consumption.
 
-- Within the **Mainstream** segment, the groups that contribute the most to sales are:
-  - **Young Singles/Couples**
-  - **Retirees**
-- These groups show strong interest in chip consumption, with high purchase volumes.
-![Dashboard](outputs/charts/mainstream.png)
----
+Strategic Recommendations
+Optimize Mainstream Engagement: Launch targeted cross-selling campaigns for Young Singles/Couples, focusing on top-performing brands like Doritos during peak "impulse" periods (e.g., weekends).
 
-### . High-Value Premium Segments
-![Dashboard](outputs/charts/premium_customer.png)
+Premium Portfolio Expansion: Introduce "Gourmet" variants or exclusive packaging for the Older Singles/Couples segment, which has demonstrated lower price elasticity.
 
-- In the **Premium** segment, the dominant group is **Older Singles/Couples**.
+Pricing Strategy for Budget Segments: For segments with negative Delta, focus on volume maximization through "Buy-More-Save-More" bundles on the 175g format to offset lower margins.
 
-
----
-
-### 4. Purchase Behavior and Average Spend
-![Dashboard](outputs/charts/mainstream2_customer.png)
-
-- **Midage Singles/Couples** and **Young Singles/Couples** (especially Mainstream) show a **higher average spend per transaction**.
-- This may indicate **impulse-driven purchases** or more frequent consumption patterns.
-
----
-
-### 5. Pack Size Preferences
-
-- **175g packs** are by far the most purchased across all segments, indicating a strong preference for **mid-sized formats**, ideal for personal or small group consumption.
-
----
-
-###  6. Top Performing Brands
-
-- The best-selling brand is **Doritos**, followed by **Smiths** and **Thins**.
-- Doritos is especially popular among both **Mainstream and Premium** customers and should be leveraged for marketing campaigns.
-
----
-
-##  Strategic Recommendations
-
-1. **Focus on the Mainstream segment**, especially:
-   - Young Singles/Couples  
-   - Retirees  
-   Use targeted promotions and improve shelf visibility.
-
-2. **Expand premium offerings** for Older Singles/Couples and families, emphasizing quality and premium branding.
-
-3. **Leverage the popular 175g pack size** with promotional bundles and value offers.
-
-4. **Boost visibility of Doritos and Smiths** through seasonal marketing and premium shelf positioning.
-
----
-
-## Dashboard Access
-
-[📊 Click here to view the interactive dashboard on Tableau Public](https://public.tableau.com/views/SupermarketChipAnalysis/Dashboard12?:language=it-IT&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link) 
-
+Inventory Management: Prioritize stock depth for Doritos, Smiths, and Thins, which collectively account for over 50% of the category value.
