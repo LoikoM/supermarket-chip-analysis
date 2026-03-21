@@ -1,31 +1,32 @@
-# Retail Customer Segmentation Analysis (FMCG Category)
+# Strategic Customer Segmentation & Sales Performance Analysis
 
 ## Project Overview
-This project focuses on **Category Management** for a major supermarket chain. The goal is to analyze customer purchasing behavior within the "Chips" category to define a data-driven strategy for the next 6 months.
+This project provides an end-to-end analysis of the Australian Snack & Chips category. It combines **Python data engineering** with a **Tableau Executive Dashboard** to help Superstore Managers identify high-value customer segments and optimize retail strategies.
 
-By merging transaction data with customer profiles, I identified high-value segments and optimized product assortment based on spend behavior and brand preferences.
+![Dashboard Preview](images/dashboard_main.jpg)
 
-## Tech Stack
-- **Python:** Data manipulation (Pandas, Numpy).
-- **Visualization:**  Tableau.
-- **Statistical Analysis:** Outlier detection and feature engineering (Regex for pack sizes and brand standardization).
+## Data Pipeline (Python)
+The analysis started with a deep-dive into transaction data (2018-2019).
+* **Data Cleaning:** Standardized brand names (e.g., 'RRD' to 'Red', 'Snbts' to 'Sunbites') and filtered for chip products only.
+* **Outlier Detection:** Removed abnormal transactions (e.g., a single customer purchasing 200 packs) to ensure data integrity.
+* **Feature Engineering:** Extracted `Pack Size` and `Brand` from product names using Regular Expressions.
+* **Segmentation:** Grouped customers by Lifestage and Premium Status to calculate unit averages and sales share.
 
-## Key Methodology
-1. **Data Cleaning:** Handled Excel serial dates, removed extreme outliers (e.g., bulk commercial purchases), and standardized brand names using string matching.
-2. **Feature Engineering:** Extracted `Pack_Size` and `Brand_Name` from unstructured product strings.
-3. **Segmentation:** Analyzed the interplay between `LIFESTAGE` and `PREMIUM_CUSTOMER` status.
+## Tableau Dashboard Highlights
+The dashboard translates raw data into actionable insights:
+* **Mix Delta Analysis:** A custom metric highlighting where sales share exceeds volume share.
+* **Lifestage Correlations:** Correlating customer lifestages with price sensitivity (Budget vs. Premium).
+* **Interactivity:** Integrated dynamic filters, MoM benchmarking, and a contextual info pop-up.
 
-## Dashboard Preview
-![Category Performance Dashboard](visuals/Dashboard.jpg)
+## Repository Structure
+* `/notebooks`: Contains `code.ipynb` with the full Python cleaning and analysis process.
+* `/outputs`: Cleaned datasets and PDF exports of the dashboard.
+* `README.md`: This project summary.
 
-## Key Strategic Insights
-- **Segment Leadership:** Mainstream customers drive **38.78%** of total sales, with **Young Singles/Couples** being the most profitable sub-segment.
-- **Assortment Optimization:** The **175g pack size** is the universal top-seller; stock availability should prioritize this size across all regions.
-- **Brand Dominance:** **Doritos** and **Smiths** represent the core of the category revenue.
+## How to Use
+1. Explore the [Python Notebook](notebooks/code.ipynb) to see the data transformation.
+2. Visit the [Live Dashboard on Tableau Public](YOUR_TABLEAU_LINK) for the interactive experience.
 
 ---
-### 🔗 Contact & Links
-- **LinkedIn:** [Your Profile Link]
-- **Tableau Public:** [Link to Interactive Dashboard if available]
-
+**Author:** Mykyta Loiko | [LinkedIn](YOUR_LINKEDIN_LINK)
 
