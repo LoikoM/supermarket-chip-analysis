@@ -3,7 +3,7 @@
 ## Project Overview
 This project provides an end-to-end analysis of the Australian Snack & Chips category. It combines **Python data engineering** with a **Tableau Executive Dashboard** to help Superstore Managers identify high-value customer segments and optimize retail strategies.
 
-![Dashboard Preview](images/dashboard_main.jpg)
+![Dashboard Preview](images/main_dashboard.png)
 
 ## Data Pipeline (Python)
 The analysis started with a deep-dive into transaction data (2018-2019).
