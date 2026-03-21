@@ -20,13 +20,13 @@ The dashboard translates raw data into actionable insights:
 
 ## Repository Structure
 * `/notebooks`: Contains `code.ipynb` with the full Python cleaning and analysis process.
-* `/outputs`: Cleaned datasets and PDF exports of the dashboard.
+* `/images`: exports of the dashboard.
 * `README.md`: This project summary.
 
 ## How to Use
 1. Explore the [Python Notebook](notebooks/code.ipynb) to see the data transformation.
-2. Visit the [Live Dashboard on Tableau Public](YOUR_TABLEAU_LINK) for the interactive experience.
+2. Visit the [Live Dashboard on Tableau Public](https://public.tableau.com/app/profile/mykyta.loiko/viz/Reserve_17735943003130/Dashboard_1) for the interactive experience.
 
 ---
-**Author:** Mykyta Loiko | [LinkedIn](YOUR_LINKEDIN_LINK)
+**Author:** Mykyta Loiko | [LinkedIn](https://www.linkedin.com/in/mykyta-loiko-9a9ab813a/)
 
